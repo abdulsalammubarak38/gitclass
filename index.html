@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Javascript Basics</title>
+  </head>
+  <body>
+    <h1 class="welcome">Welcome</h1>
+    <button
+      onclick="document.querySelector('.welcome').innerHTML = 'Thanks For Coming'"
+    >
+      Click me
+    </button>
+    <script>
+      document.body.style.backgroundColor = "red";
+    </script>
+
+    <div class="container">
+      <div class="content">
+        <ul>
+          <li class="items-html">HTML</li>
+          <li class="items-javascript">JAVASCRIPT</li>
+          <li class="items-OOP">OOP</li>
+        </ul>
+        <div class="content-inner">
+          <div class="html">
+            Hypertext Markup Language, a standardized system for tagging text
+            files to achieve font, colour, graphic, and hyperlink effects on
+            World Wide Web pages.
+          </div>
+          <br />
+          <div class="javascript">
+            JAVASCRIPT ipsum dolor sit amet, consectetur adipisicing elit. Enim,
+            doloribus tempore odio laudantium maxime voluptatem eaque at
+            blanditiis quae laboriosam.
+          </div>
+          <br />
+          <div class="OOP">
+            Object-oriented programming (OOP) is a computer programming model
+            that organizes software design around data, or objects, rather than
+            functions and logic.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
